@@ -1,0 +1,52 @@
+
+$('.owl-one').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        },
+        1200:{
+            items:8
+        },
+        1500:{
+            items:9
+        },
+        1980:{
+            items:10
+        }
+    }
+})
+
+$('.owl-two').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        },
+        1200:{
+            items:8
+        },
+        1500:{
+            items:9
+        },
+        1980:{
+            items:10
+        }
+    }
+})
