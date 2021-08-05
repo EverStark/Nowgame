@@ -33,7 +33,10 @@ header nav ul li a{
 header nav ul li{ 
     list-style: none; 
 }
-header nav ul{display: flex;}
+
+header nav ul{
+    display: flex;
+}
 
 header nav li a:hover{
     background-color:#76b900 ;
@@ -42,7 +45,6 @@ header nav li a:hover{
     padding: 15px ;
     transition: .4s ease all;
     width: 100%;
-    
 }
 
 header .container{
@@ -50,7 +52,6 @@ header .container{
     align-items:center;
     justify-content: space-between;
     margin-right: 10px;
-    
 }
 
 #bt-menu{
@@ -61,7 +62,7 @@ label[for="bt-menu"]{
     display: none; 
 }
 
-/*Destaques*/
+/*Destaques(carrosel com transição automática*/
 
 main{
     max-width: 1850px;
@@ -82,7 +83,6 @@ main{
 }
 
 .sinopse{
-    
     margin-top: 10px;
     max-width: 70%;
 }
@@ -145,15 +145,11 @@ main{
     margin: auto;
 }
 
-
-
-
-
 .container{
     margin-left: 10px;
 }
 
-/* carrosel */
+/* carrosel sem transição automática*/
 
 h3{
     margin-left: 10px;
