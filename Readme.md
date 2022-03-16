@@ -16,3 +16,5 @@ Na responsividade, adicionei um botão que abre os itens do menu depois de press
 Para ambos os carroseis, foi usado o plugin Jquery Owl Carousel.
 
 Para os ícones dos botões, foi usado o conjunto de ícones do Font Awesome.
+
+Link do site na hospedagem do Github: https://everstark.github.io/Nowgame/
